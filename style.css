@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(251, 251, 251);
+}
+
+h1 {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+form {
+    width: 40rem;
+    margin: auto;
+    background-color: rgb(247, 247, 247);
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+label {
+    color: rgb(74, 74, 105);
+    display: block;
+    margin: 0.5rem 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea, select {
+    font: inherit;
+    padding: 0.5rem;
+    border: 1px solid #f4f2f2;
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    background-color: #fdffff;
+}
+
+.control {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.control label {
+    margin: 0;
+    margin-left: 0.5rem;
+}
+
+.control input {
+    width: auto;
+}
+
+button {
+    font: inherit;
+    border: 1px solid #12214b;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #0b1942;
+    color: white;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: #12214b;
+}
+
+.btn1:hover {
+    background-color: #212777;
+    border-color: #383e96;
+}
+.btn2:hover {
+    background-color: #e0e0e2;
+}
+
+.formaction {
+    text-align: right;
+}
